@@ -1,0 +1,174 @@
+/* Whole page */
+body, html {
+  font-family: 'Lato', sans-serif;
+  margin: 0 auto;
+}
+
+/* Navbar */
+#mainNavbar {
+  padding: 0 1.5rem;
+  margin: 0;
+  width: 100%;
+  background-color: #654682;
+  color: white;
+}
+
+.logo{
+  width: 3rem;
+  fill: #FFD31D;
+}
+.navbar-brand {
+  font-size: 1.75rem;
+  font-weight: 300;
+  padding-left: 4.6rem;
+  color: white;
+}
+
+.navbar-brand:hover{
+  color: white;
+}
+
+
+.nav-link {
+  padding-bottom: 0.31rem;
+  margin: 0 2rem;
+  font-size: 1.1rem;
+  color: white;
+  letter-spacing: 0.15rem;
+}
+
+.item:hover {
+  color: #FFD31D;
+  transform: scale(1.1);
+}
+
+.active{
+  color: #FFD31D;
+}
+
+#get-started {
+  font-size: 1rem;
+  font-weight: 200;
+  margin-right: 4.5rem;
+  margin-left: 2rem;
+  padding: 0 0.5rem;
+  border: 1px solid #FFC93C;
+  color: white;
+  display: flex;
+  align-items: center;
+  transform: scale(0.9)
+}
+
+#get-started:hover {
+  background-color: #FFD31D;
+  color: white;
+  /* transform: translateY(-2px); */
+}
+
+/* Title page */
+.title-page {
+  background-color: #654682;
+}
+
+.section-1 {
+  padding: 0;
+}
+
+.landing {
+  padding: 6rem 2rem 4rem 2rem;
+  margin: 0;
+}
+
+.hero {
+  text-align: center;
+  padding-left: 2rem;
+}
+
+h1 {
+  font-size: 5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fdffeb;
+  text-align: left;
+  padding-left: 3.5rem;
+}
+
+h2 {
+  padding: 1.5rem 4rem 2rem 4rem;
+}
+
+.try-button {
+  /* text-align: left; */
+  background-color: #FFD31D;
+  color: black;
+  border: none;
+  margin: 1.5rem 4.3rem;
+  padding: 0.5rem 1rem;
+}
+
+.try-button:hover {
+  background-color: #ffcd00;
+  transform: top ease 0.5s;
+  box-shadow: 0 7px 10px -2px rgb(194, 163, 212);
+  color: #fff;
+}
+
+.try-button:active {
+  background-color: #FFD31D;
+}
+
+/* About section */
+.about, .suggestion-box {
+  background-color: #feffe1;
+  color: #0F044C;
+  text-align: center;
+  padding-top: 0;
+}
+
+.stem-about {
+  text-align: center;
+}
+
+/* How-To section */
+.how-to {
+  padding: 0;
+  background-color: #654682;
+  color: #fff;
+}
+
+.how-to .row {
+  padding-bottom: 3rem;
+}
+
+
+/* Deck of cards */
+.deck-o-cards{
+  /* display: flex; */
+  /* justify-content: space-evenly; */
+}
+.deck {
+  display: flex;
+  justify-content: center;
+}
+
+.cards {
+  background-color: rgb(194, 163, 212);
+  border: solid 1px #feffe1;
+  border-radius: 1.6rem;
+  /* box-shadow: 0.2rem 0.2rem 0.4rem 0.1rem rgba(254, 255, 225, 0.5); */
+  width: 80%;
+  text-align: center;
+  padding: 2rem;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+}
+.cards:nth-of-type(1){
+  padding-left: 2rem;
+}
+/* .content {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+/* } */
+
+/* Make a suggestion section */
